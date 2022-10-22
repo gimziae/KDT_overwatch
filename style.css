@@ -1,0 +1,170 @@
+/* common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./img/bg.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.inner{
+    position: relative;
+    max-width: 1180px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 캐릭터 선택창 */
+.inner .characters{
+    /* border: 1px  solid red; */
+    max-width: 700px;
+    margin: 0 auto;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner .characters .character{
+    width: 80px;
+    height: 84px;
+    margin: auto;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    transform: skew(-20deg);
+    background-color: #989898;
+    overflow: hidden;
+    transition: .5s;
+    cursor: pointer;
+}
+.inner .characters .character:hover{
+    background-color: #f5af17;
+    transform: scale(1.3) skew(-20deg);
+
+}
+
+.inner .characters .character .img{
+    width: 100%;
+    height: 100%;
+    transform: skew(20deg);
+    background-size: contain;
+}
+
+.inner .characters .hero1 .img{
+    background-image: url(./img/hero1.png);
+}
+.inner .characters .hero2 .img{
+    background-image: url(./img/hero2.png);
+}
+.inner .characters .hero3 .img{
+    background-image: url(./img/hero3.png);
+}
+.inner .characters .hero4 .img{
+    background-image: url(./img/hero4.png);
+}
+.inner .characters .hero5 .img{
+    background-image: url(./img/hero5.png);
+}
+.inner .characters .hero6 .img{
+    background-image: url(./img/hero6.png);
+}
+.inner .characters .hero7 .img{
+    background-image: url(./img/hero7.png);
+}
+.inner .characters .hero8 .img{
+    background-image: url(./img/hero8.png);
+}
+.inner .characters .hero9 .img{
+    background-image: url(./img/hero9.png);
+}
+.inner .characters .hero10 .img{
+    background-image: url(./img/hero10.png);
+}
+.inner .characters .hero11 .img{
+    background-image: url(./img/hero11.png);
+}
+.inner .characters .hero12 .img{
+    background-image: url(./img/hero12.png);
+}
+.inner .characters .hero13 .img{
+    background-image: url(./img/hero13.png);
+}
+.inner .characters .hero14 .img{
+    background-image: url(./img/hero14.png);
+}
+.inner .characters .hero15 .img{
+    background-image: url(./img/hero15.png);
+}
+.inner .characters .hero16 .img{
+    background-image: url(./img/hero16.png);
+}
+.inner .characters .hero17 .img{
+    background-image: url(./img/hero17.png);
+}
+.inner .characters .hero18 .img{
+    background-image: url(./img/hero18.png);
+}
+.inner .characters .hero19 .img{
+    background-image: url(./img/hero19.png);
+}
+.inner .characters .hero20 .img{
+    background-image: url(./img/hero20.png);
+}
+.inner .characters .hero21 .img{
+    background-image: url(./img/hero21.png);
+}
+.inner .characters .hero22 .img{
+    background-image: url(./img/hero22.png);
+}
+.inner .characters .hero23 .img{
+    background-image: url(./img/hero23.png);
+}
+.inner .characters .hero24 .img{
+    background-image: url(./img/hero24.png);
+}
+.inner .characters .hero25 .img{
+    background-image: url(./img/hero25.png);
+}
+.inner .characters .hero26 .img{
+    background-image: url(./img/hero26.png);
+}
+.inner .characters .hero27 .img{
+    background-image: url(./img/hero27.png);
+}
+.inner .characters .hero28 .img{
+    background-image: url(./img/hero28.png);
+}
+.inner .characters .hero29 .img{
+    background-image: url(./img/hero29.png);
+}
+.inner .characters .hero30 .img{
+    background-image: url(./img/hero30.png);
+}
+.inner .characters .hero31 .img{
+    background-image: url(./img/hero31.png);
+}
+.inner .characters .hero32 .img{
+    background-image: url(./img/hero32.png);
+}
+
+
+/* 로고 */
+.inner .logo{
+    width: 100%;
+    height: 30%;
+    /* border: 1px solid red; */
+}
+.inner .logo .logo_box{
+    /* border: 1px solid blue; */
+    max-width: 250px;
+    height: 100%;
+    background: url(./img/logo_overwatch.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+}
