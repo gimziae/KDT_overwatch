@@ -13,16 +13,13 @@ body{
 .inner{
     position: relative;
     max-width: 1180px;
-    /* height: 100vh; */
     margin: 0 auto;
-    /* padding: 0px 0; */
     display: flex;
     flex-direction: column;
 }
 
 /* 캐릭터 선택창 */
 .inner .characters{
-    /* border: 1px  solid red; */
     max-width: 700px;
     margin: 0 auto;
     padding: 50px;
@@ -54,7 +51,8 @@ body{
     width: 100%;
     height: 100%;
     transform: skew(20deg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .inner .characters .hero1 .img{
@@ -153,7 +151,6 @@ body{
 .inner .characters .hero32 .img{
     background-image: url(./img/hero32.png);
 }
-
 
 
 /* 로고 */
